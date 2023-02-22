@@ -1,0 +1,20 @@
+Let us define a sequence parity function as a function that takes in a sequence of binary inputs and returns a sequence indicating the number of 0’s in the input so far; specifically, if at time t the 0’s in the input so far is odd it returns 1, and 0 if it is even. For example, given input sequence [0, 1, 0, 1, 1, 0], the parity sequence is [1, 1, 0, 0, 0, 1]. 
+
+ 
+
+Implement the minimal vanilla recurrent neural network to learn the parity function. Explain your rationale using a state transition diagram and parameters of the network.
+
+ 
+
+Evaluation Process -
+
+Task Response and Task Completion- All the models should be logically sound and have decent accuracy (models with random guessing, frozen and incorrect accuracy, exploding gradients, etc. will lead to deduction of marks. Please do a sanity check of your model and results before submission).
+There are a lot of subparts, so answer each completely and correctly, as no partial marks will be awarded for partially correct subparts.
+Implementation- The model layers, parameters, hyperparameters, evaluation metrics, etc. should be properly implemented.
+Notebooks without output will not be considered for evaluation.
+Request to upload an HTML version of the jupyter notebook as well with all the outputs and comments.
+Additional Tips -
+
+Code organization- Please organize your code with correct line spacing and indentation, and add comments to make your code more readable.
+Try to give explanations or cite references wherever required.
+Use other combinations of hyperparameters to improve model accuracy.
