@@ -1,0 +1,25 @@
+Dataset: data2_0.4_5.csv Download data2_0.4_5.csv 
+
+ 
+
+1. Load the attached csv file in python. Each row consists of feature 1, feature 2, class label.
+ 
+
+2. Train two single/double hidden layer deep networks by varying the number of hidden nodes (4, 8, 12, 16) in each layer with 70% training and 30% validation data. Use appropriate learning rate, activation, and loss functions and also mention the reason for choosing the same. Report, compare, and explain the observed accuracy and minimum loss achieved. [0.5+1 mark]
+ 
+
+3. Visually observe the dataset and design an appropriate feature transformation (derived feature) such that after feature transformation, the dataset can be classified using a minimal network architecture (minimum number of parameters). Design, train this minimal network, and report training and validation errors, and trained parameters of the network. Use 70% training and 30% validation data, appropriate learning rate, activation and loss functions. Explain the final results. [1+1+0.5 marks]
+ 
+
+Evaluation Process -
+
+Task Response and Task Completion- All the models should be logically sound and have decent accuracy (models with random guessing, frozen and incorrect accuracy, exploding gradients etc. will lead to deduction of marks. Please do a sanity check of your model and results before submission).
+There are a lot of subparts, so answer each completely and correctly, as no partial marks will be awarded for partially correct subparts.
+Implementation- The model layers, parameters, hyperparameters, evaluation metrics etc. should be properly implemented.
+Only fully connected or dense layers are allowed. CNNs/RNNs are strictly not allowed.
+Notebooks without output will not be considered for evaluation.
+Additional Tips -
+
+Code organization- Please organize your code with correct line spacing and indentation, and add comments to make your code more readable.
+Try to give explanations or cite references wherever required.
+Use other combinations of hyperparameters to improve model accuracy.
