@@ -1,3 +1,0 @@
-Safer Pharmacy is: Pharmacy 1
-Path to follow: a d f i 
-Containment zones in this path: 15
